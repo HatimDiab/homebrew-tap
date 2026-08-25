@@ -3,8 +3,8 @@ class Llcpp < Formula
 
   desc "Ollama-style CLI for llama.cpp: pull, run, search and serve GGUF models"
   homepage "https://github.com/HatimDiab/llcpp"
-  url "https://github.com/HatimDiab/llcpp/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "dc5f3ccdcc2efa46846ebfb5baeb48926f32d5a49570c12cfbde73e0b6e52b3c"
+  url "https://github.com/HatimDiab/llcpp/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "b61145888a6e91e572e8b56c9103bf7f60df90ce394c2109991c5ebc439bac68"
   license "MIT"
 
   depends_on "llama.cpp"
