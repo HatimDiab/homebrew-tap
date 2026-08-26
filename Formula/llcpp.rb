@@ -8,11 +8,10 @@ class Llcpp < Formula
   license "MIT"
 
   depends_on "llama.cpp"
-  depends_on "python@3.13"
 
   def install
     bin.install "llcpp"
-    rewrite_shebang detected_python_shebang(use_python_from_path: false), bin/"llcpp"
+    rewrite_shebang detected_python_shebang(use_python_from_path: true), bin/"llcpp"
   end
 
   test do
